@@ -1,84 +1,222 @@
-#name{
-	width: 20%;
-	background-color: lightblue;
-	float: left;
-
-	margin-left: 100px;
-	padding: 5px;
+﻿#wrapper {
+	background-image: url("ep_naturalwhite.png");
+	min-height: calc(100vh - 70px);
 }
 
-li {
 
+#header {
+	background: #ffffff;
+	overflow:auto;
+	
+	
+}
+
+#header-limit{
+
+	width: 960px;
+	overflow: auto;
+	margin: 0 auto 0 auto;
+}
+
+#name {
+	background: #4aaaa5;
+	padding: 25px;
+	text-align: center;
+	float: left;	
+}
+
+#menu {	
 	float: right;
+	padding: 25px;
 }
 
-li a {
+#main {
+	clear: both;
+	width: 960px;
+	overflow: auto;
+	margin: 0 auto 0 auto;
+	
+}
 
-	display: block;
-	background-color: #dddddd;
-	border-right:1px solid;
-	padding: 5px;
+#content {
+	background: #ffffff;
+	width: 600px;
+	position: relative;
+	padding : 25px;
+	float: left;
+	margin: 50px 0 50px 0;
 
+}
+
+#sidebar {
+	width: 220px;
+	background: #ffffff;
+	float: right;
+	margin: 50px 0 0 0;
+	padding: 25px;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	padding: 30px;
+	border-top: 5px solid #4aaaa5;
+	background: #666666;
+	height: 10px;
+	
 }
 
 ul {
 
-	list-style-type: none;
-}
+	
+	text-align: center;
 
-#menu {
-
-	margin-right: 30px;
 
 }
 
+li {
 
-#content {
-
-	clear: both;
-	background-color: #dddddd;
-	border-top: 2px solid ;
-	border-bottom: 5px solid;
-	height: 200px;
-	width:640px;
+	display: inline;
+	
+	padding-right: 2px;
 
 }
 
+h1 {
 
-#about {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 1.75em;
+	color: white;
+	font-weight: bold;
+}
+
+h2 {
+
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 1.3em;
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
+p.foot {
+
+	color: #cccccc;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 0.8em;
+}
+
+img.avatar {
+
+	height: 130px;
+	width: 130px;
 	float: left;
-	background-color: white;
-	margin-left: 100px;
-	width: 60%;
+	margin-right: 20px;
 }
 
-#external {
+p {
 
-	background-color: white;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+	line-height: 25px;
+	color: gray;
+}
+.icon {
+	height: 60px;
+	width: 31%;
+
+}
+
+a {
+
+	color: #cccccc;
+	text-decoration: none;
+}
+img.portfolio-odd {
+
 	float: left;
-	margin-left: 100px;
-
+	height: 220px;
+	width: 280px;
+	
+	margin-bottom: 30px;
+	margin-top: 20px;
 }
 
-#footer {
+img.portfolio-even {
 
-	clear:both;
-	background-color: #dddddd;
-	height: 50px;
-	padding: 20px;
+	float: right;
+	height: 220px;
+	width: 280px;
+	
+	margin-bottom: 30px;
+	margin-top: 20px;
 }
 
-#wrapper {
+hr {
+    border-top: 2px solid #ccc;
+    margin: 15px auto 20px auto;
+}
 
-	width:960px;
+label {
+	color: gray;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+input {
+	width: 596px;
+	height: 25px;
+	margin: 10px 0 10px 0;
+	padding: 0;
+	border: 1.5px solid #ccc;
+}
+textarea {
+	width:594px;
+	height: 150px;
+	margin: 10px 0 20px 0;
+	border: 1.5px solid #ccc;
+}
+
+button {
+
+	background-color: #4aaaa5; 
+    border: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: 1.3em;
 }
 
 figure {
 
-	width: 40%;
-	height: 50px;
-	background-color:lightblue;
-	float: left;
-	margin:10px; 
+	background: #4aaaa5; 
+	position: absolute;
+
+	width: 280px;
+	
+	text-align: center;
+	font-size: 1.3em;
+	color: white;
+	padding: 15px 0 15px 0;
+}
+#figure1 {
+
+		top:260px;
+
+}
+#figure2 {
+
+		top:260px;
+		right: 25px;
+}
+#figure3 {
+
+		top:530px;
+
+}
+#figure4 {
+
+		top:530px;
+		right: 25px;
+}
+#figure5 {
+
+		top:800px;
 
 }
